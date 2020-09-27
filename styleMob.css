@@ -1,0 +1,142 @@
+@media only screen and (max-width: 640px) {
+	  body {
+	    background-color: lightblue;
+	    background-image: url('background - 2.png');
+		background-repeat: no-repeat;
+		background-size: cover; 
+	  }
+
+	/*----------------Grid Controller--------------------*/
+	.grid-item-1 {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 85% 40% 200px;
+		grid-template-areas:
+		  'column1 column1'
+		  'column2 column2'
+		  'footer footer';
+		grid-gap: 40px;
+		color: #000;
+		padding: 0px;
+	}
+
+	/*-----------------Grid Row-1----------------------*/
+	.section-1 {
+			grid-area: column1;	
+	    	display: flex;
+	    	flex-direction: column;
+	    	justify-content: space-between;
+	    	align-items: flex-start;
+		}
+		.logoImg {
+			text-align: left;
+		}
+		.logoImg img {
+			width: 80%;
+		}
+		.typing_effect {
+			padding: 0px;
+			line-height: 2em;
+		}
+		.typing_effect h1 {
+			font-size: 3em;
+		}
+
+	/*-----------------Grid Row-2/Column-1----------------------*/
+		.section-2 {
+			padding: 5% 1% 5% 1%;
+	}
+		.parent_regBank {
+			text-align: center;
+			width: 55%;
+		}
+		.regBank {
+			width: 200px;	
+		}
+		.parent_regBank div img {
+		width: 20px !important;
+	}
+	.parent_regBank div p {
+		font-size: 12px;
+	}
+
+	/*--------Regular Bank Icons classes---------*/
+
+	.rewards9 { /*Rewards*/
+		position: absolute;
+		left: -5%;
+		top: 67%;
+
+	}
+	.rewards8 { /*Savings*/
+		position: absolute;
+		left: -7%;
+		top: 32%;
+	}
+	.rewards7 { /*Investments*/
+		position: absolute;
+		left: -3%;
+		top: -2%;
+	}
+	.rewards6 { /*Forex*/
+		position: absolute;
+		left: 20%;
+		top: -23%;
+	}
+	.rewards5 { /*Analytics*/
+		position: absolute;
+		left: 40%;
+		top: -30%;
+	}
+	.rewards4 { /*Cards*/
+		position: absolute;
+		right: 22%;
+		top: -25%;
+	}
+	.rewards3 { /*Payment*/
+		position: absolute;
+		right: -2%;
+		top: -4%;
+	}
+	.rewards2 { /*Loan*/
+		position: absolute;
+		right: -2%;
+		top: 30%;
+	}
+	.rewards1 { /*Support*/
+		position: absolute;
+		right: -1%;
+		top: 65%;
+	}
+
+	/*-----------------Grid Row-2/Column-2----------------------*/
+	.section-3 {
+			display: none;
+	}
+
+	/*-----------OneBanc Icons classes-----------*/
+
+	/*----------------Footer Section-----------------------*/
+
+		.footer_tab img {
+			width: 50%;
+		}
+		.footer_tab {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+		}
+
+		.footer_end {
+			line-height: 10px;
+			text-align: center;
+		}
+		.footerTC {
+			font-size: 12px;
+		}
+		.footerCPY {
+			font-size: 15px;
+		}
+
+	}  
+

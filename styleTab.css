@@ -1,0 +1,228 @@
+@media only screen and (max-width: 1200px) {
+	  body {
+	    background-color: lightblue;
+	    background-image: url('background - 2.png');
+		background-repeat: no-repeat;
+		background-size: cover; 
+		
+	  }
+
+	/*----------------Grid Controller--------------------*/
+	.grid-item-1 {
+		display: grid;
+		grid-template-columns: minmax(50%,1fr) minmax(50%,1fr);
+		grid-template-rows: 75% 75% 200px;
+		grid-template-areas:
+		  'column1 column1'
+		  'column2 column3'
+		  'footer footer';
+		grid-gap: 20px;
+		color: #000;
+		padding: 0px;
+		height:100vh;
+		overflow: scroll;
+		overflow-x: hidden;
+	}
+
+	/*-----------------Grid Row-1----------------------*/
+	.section-1 {
+			grid-area: column1;
+	    	
+	    	display: flex;
+	    	flex-direction: column;
+	    	justify-content: space-between;
+	}
+	.logoImg {
+			text-align: center;
+	}
+		.logoImg img {
+			width: 60%;
+	}
+
+		.typing_effect {
+		line-height: 3em;
+	    width: 100%;
+	    text-align: left;
+	    padding: 0px 30%;
+	}
+		.description {
+			text-align: center;
+			width: 100%;
+	}
+		.emailBlock {
+			text-align: center;
+			margin: 0px auto;
+	}
+	.qrc {
+			display: none;
+	}
+
+
+	/*-----------------Grid Row-2/Column-1----------------------*/
+	.section-2 {
+			grid-area: column2;
+			padding: 25% 0% 10% 15%;
+	}
+	.parent_regBank div img {
+			width: 30px !important;
+	}
+		.parent_oneBank div img {
+			width: 30px !important;
+	}
+	.parent_regBank {
+			width: 130px;
+		}
+	.regBank {
+		width: 100%;
+		height: auto;
+		max-width: 200px;
+	}
+	.category_rb {
+			margin: 5px;
+			font-size: 25px;
+			color: #000;
+	}
+
+	/*--------Regular Bank Icons classes---------*/
+
+	.rewards9 { /*Rewards*/
+		position: absolute;
+		left: -15%;
+		top: 48%;
+	}
+	.rewards8 { /*Savings*/
+		position: absolute;
+		left: -52%;
+		top: 31%;
+	}
+	.rewards7 { /*Investments*/
+		position: absolute;
+		left: -60%;
+		top: 15%;
+	}
+	.rewards6 { /*Forex*/
+		position: absolute;
+		left: -60%;
+		top: -5%;
+	}
+	.rewards5 { /*Analytics*/
+		position: absolute;
+		left: -40%;
+		top: -25%;
+	}
+	.rewards4 { /*Cards*/
+		position: absolute;
+		right: 54%;
+		top: -30%;
+	}
+	.rewards3 { /*Payment*/
+		position: absolute;
+		right: 0%;
+		top: -26%;
+	}
+	.rewards2 { /*Loan*/
+		position: absolute;
+		right: -25%;
+		top: -6%;
+	}
+	.rewards1 { /*Support*/
+		position: absolute;
+		right: -48%;
+		top: 15%;
+	}
+
+
+
+
+	/*-----------------Grid Row-2/Column-2----------------------*/
+	.section-3 {
+			padding: 25% 10% 10% 0%;
+	}
+	.parent_oneBank {
+			width: 160px;
+	}
+	.oneBank {
+		width: 100%;
+		height: auto;
+		max-width: 250px;
+	}
+	.category_ob {
+			margin: 5px;
+			font-size: 25px;
+	}
+
+	/*-----------OneBanc Icons classes-----------*/  
+
+	.rewards91 { /*Rewards*/
+		position: absolute;
+		right: -5%;
+		top: 0%;
+	}
+	.rewards81 { /*Savings*/
+		position: absolute;
+		right: 15%;
+		top: -20%;
+	}
+	.rewards71 { /*Investment*/
+		position: absolute;
+		right: 15%;
+		top: -40%;
+	}
+	.rewards61 { /*Forex*/
+		position: absolute;
+		right: -25%;
+		top: -50%;
+	}
+	.rewards51 { /*Analytics*/
+		position: absolute;
+		right: -95%;
+		top: -40%;
+	}
+	.rewards41 { /*Card*/
+		position: absolute;
+		right: -32%;
+		top: 18%;
+	}
+	.rewards31 { /*Payment*/
+		position: absolute;
+		right: -80%;
+		top: -20%;
+	}
+	.rewards21 { /*Loan*/
+		position: absolute;
+		right: -25%;
+		top: -20%;
+	}
+	.rewards11 { /*Support*/
+		position: absolute;
+		right: -60%;
+		top: 0%;
+	}
+		
+	/*----------------Footer Section-----------------------*/	
+		
+	.footer_tab {
+			grid-area: footer;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			background: #2d2d2d;
+			height: 100%;
+			padding-top: 3%;
+	}
+	.footer_tab img {
+			width: 30%;
+	}
+	.footer_end {
+			line-height: 10px;
+			text-align: center;
+	}
+	.footerTC {
+			font-size: 12px;
+	}
+	.footerCPY {
+			font-size: 15px;
+	}
+
+	}
+
